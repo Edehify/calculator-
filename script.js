@@ -5,8 +5,6 @@ let currentNumber = "";
 let expression = [];
 display.value = 0;
 
-
-
 // loop through all buttons
 buttons.forEach(button => {
   // add event listener to get button clicked
@@ -16,8 +14,17 @@ buttons.forEach(button => {
       currentNumber = "";
       expression = [];
       display.value = 0;
-    }
-    else if(value === "=") {
+    }else if(value ==="🔙"){
+      if(currentNumber ==="0")return;
+      if(currentNumber != "0"){
+        currentNumber = currentNumber.slice(0,-1);
+        display.value = currentNumber;
+      }
+      if(currentNumber == ""){
+        currentNumber = "0";
+         display.value = currentNumber;
+      }
+    }else if(value === "=") {
  expression.push(parseFloat(currentNumber));
  
  const result = calculateExpression(expression);
