@@ -5,7 +5,7 @@
 This is a simple calculator project built using HTML, CSS, and JavaScript. The calculator performs basic arithmetic operations (addition, subtraction, multiplication, and division). It is a hands-on project aimed at strengthening my understanding of JavaScript DOM manipulation and function logic.
 
 For more information about this project and my learning journey, please visit:  
-[3MTT Academy](https://3mtt.academy.darey.io/learning-path/cohortproject)
+[Odin Project](https://www.theodinproject.com/lessons/foundations-calculator)
 
 ---
 
@@ -23,14 +23,14 @@ The goal of this project is to build a functioning calculator with a user interf
 - Practicing object-oriented thinking (via modular code structure)  
 - Using Flexbox for layout alignment  
 - Using custom CSS styles to improve UI appearance  
-- Publishing the calculator project online via GitHub Pages  
+- Publishing the calculator project online via GitHub Pages 
+- Using Javascript DOM
 
 ---
 
 ## Acknowledgments
 
-- Special thanks to **The Odin Project** for foundational web development resources  
-- Appreciation to **3MTT Academy** and **Darey.io** for providing structured learning and mentorship  
+- Special thanks to **The Odin Project** for foundational web development resources
 
 ---
 
