@@ -69,7 +69,7 @@ button:hover {
 }
 
 .clear {
-  grid-column: span 4;
+  grid-column: span 3;
   background-color: #ff3b30;
   color: white;
   font-weight: bold;
@@ -77,4 +77,12 @@ button:hover {
 
 .clear:hover {
   background-color: #d12f25;
+}
+
+.backspace {
+  background-color: #A3BFFA;
+}
+
+.backspace:hover {
+  background-color: #8A9DBF;
 }
